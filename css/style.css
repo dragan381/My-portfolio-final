@@ -237,6 +237,58 @@ footer ul {
   gap: 3rem;
   font-size: 3rem;
 }
+
+/*contact form section*/
+
+#contact-form {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+#contact-form fieldset label {
+  display: block;
+  padding-bottom: 0.3rem;
+}
+
+#contact-form fieldset {
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+#contact-form fieldset legend {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#contact-form fieldset textarea {
+  height: 10rem;
+  padding: 1rem;
+}
+
+#contact-form button {
+  font-size: 1rem;
+  margin: 2rem 0;
+  border: none;
+}
+
+#contact-form input,
+textarea {
+  display: block;
+  margin-bottom: 2rem;
+  width: 20rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+  padding: 0 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
 @media (min-width: 800px) {
   article {
     display: grid;

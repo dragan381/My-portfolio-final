@@ -29,7 +29,6 @@
             </li>
             <li><a href="index.html#projects">Projects</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
             <li>
                 <a href="https://www.linkedin.com/in/dragan-stanojevic-6979ab89/" target="_blank"><span
                         class="fa-brands fa-linkedin" aria-hidden="true"></span><span
@@ -46,10 +45,24 @@
         </ul>
     </nav>
     <div class="gradient"></div>
-    <!--PROJECT SECTION-->
+    <!--CONTACT FORM SECTION-->
     <div class="section-blue">
-        <section id="contact">
-
+        <section id="contact-form">
+            <form action="" method="post">
+                <input type="hidden" id="send_to" name="send_to" value="dragan.stanojevic83@gmail.com">
+                <fieldset>
+                    <legend>Your contact information</legend>
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Don't forget your area code">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="comments">Special requests:</label>
+                    <textarea id="comments" name="comments" placeholder="Tell me everything..."></textarea>
+                </fieldset>
+                <button type="submit" class="button">Submit</button>
+            </form>
         </section>
     </div>
     <div class="gradient"></div>
@@ -62,7 +75,6 @@
                         class="sr-only">LinkedIn</span></a></li>
             <li><a href="https://github.com/dragan381" target="_blank"><span class="fa-brands fa-github"
                         aria-hidden="true"></span><span class="sr-only">Github</span></a></li>
-            <li><a href="contact.html"><span class="fa-solid fa-envelope"></span><span class="sr-only">Email</span></a>
             </li>
         </ul>
         <p><small>&copy; 2023 Dragan Stanojevic. All rights reserved.</small></p>
